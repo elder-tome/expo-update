@@ -12,6 +12,12 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "updates": {
+      "requestHeaders": {
+        "expo-channel-name": "preview"
+      },
+      "url": "https://u.expo.dev/60e37f56-b0c7-4f94-9c7d-ac781f19844c"
+    },
     "ios": {
       "supportsTablet": true
     },
@@ -19,10 +25,20 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.eldertome.testexpoupdate"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "60e37f56-b0c7-4f94-9c7d-ac781f19844c"
+      }
+    },
+    "owner": "elder-tome",
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
